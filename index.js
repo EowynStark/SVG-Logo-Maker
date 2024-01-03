@@ -2,4 +2,5 @@
 import CLI from "./lib/cli.cjs";
 
 // then executes based on cli prompts
-new CLI().run();
+const cli = new CLI();
+cli.run();
